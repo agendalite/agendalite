@@ -1,0 +1,142 @@
+.litecal-builder-block {
+  width: 100%;
+}
+
+.editor-styles-wrapper .wp-block-agendalite-public-page,
+.editor-styles-wrapper .wp-block-agendalite-service-booking,
+.block-editor-block-list__block.wp-block-agendalite-public-page,
+.block-editor-block-list__block.wp-block-agendalite-service-booking {
+  width: 100%;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.litecal-builder-placeholder {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 24px;
+  color: #0f172a;
+  box-shadow: none;
+}
+
+.litecal-builder-placeholder__title {
+  margin: 0 0 8px;
+  color: #0f172a;
+  font-size: 26px;
+  line-height: 1.15;
+  font-weight: 700;
+  text-align: center;
+}
+
+.litecal-builder-placeholder__message {
+  margin: 0 0 18px;
+  color: #475569;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.litecal-builder-placeholder__media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 18px;
+  padding: 8px 0 2px;
+}
+
+.litecal-builder-placeholder__image {
+  display: block;
+  width: min(100%, 340px);
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.litecal-builder-placeholder__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.litecal-builder-placeholder__item {
+  display: grid;
+  grid-template-columns: 10px 1fr auto;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.litecal-builder-placeholder__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: #94a3b8;
+}
+
+.litecal-builder-placeholder__dot.is-on {
+  background: #00d277;
+}
+
+.litecal-builder-placeholder__dot.is-off {
+  background: #cbd5e1;
+}
+
+.litecal-builder-placeholder__text {
+  color: #0f172a;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.litecal-builder-placeholder__state {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.litecal-elementor-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../editor/agendalite-builder-icon.svg") center/contain no-repeat;
+}
+
+@media (max-width: 640px) {
+  .litecal-builder-placeholder {
+    padding: 18px;
+  }
+
+  .litecal-builder-placeholder__title {
+    font-size: 22px;
+  }
+
+  .litecal-builder-placeholder__item {
+    grid-template-columns: 10px 1fr;
+    grid-template-areas:
+      "dot text"
+      ". state";
+    align-items: start;
+    padding: 12px 14px;
+  }
+
+  .litecal-builder-placeholder__item .litecal-builder-placeholder__dot {
+    grid-area: dot;
+    margin-top: 5px;
+  }
+
+  .litecal-builder-placeholder__item .litecal-builder-placeholder__text {
+    grid-area: text;
+  }
+
+  .litecal-builder-placeholder__item .litecal-builder-placeholder__state {
+    grid-area: state;
+  }
+}

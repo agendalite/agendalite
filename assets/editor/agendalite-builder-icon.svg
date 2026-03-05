@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .st0 {
+        fill: #00d277;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <polygon class="st0" points="288.9 506 467 101.1 499.4 350.4 288.9 506"/>
+  <polygon class="st0" points="215.4 6 12.6 244.7 467 101.1 215.4 6"/>
+  <polygon class="st0" points="288.9 506 240.6 296.8 12.6 244.7 112.1 392.2 288.9 506"/>
+  <polygon class="st0" points="302 365.9 386.9 172.9 181.6 237.8 277.5 259.7 302 365.9"/>
+</svg>

@@ -1,0 +1,73 @@
+# THIRD-PARTY NOTICES
+
+Agenda Lite bundles local frontend assets under `/assets/vendor`.
+These assets are shipped locally (no CDN calls) as part of the plugin distribution.
+
+## Bundled third-party libraries
+
+1) Remix Icon
+- Paths:
+  - `/assets/vendor/remixicon/remixicon.css`
+  - `/assets/vendor/remixicon/remixicon.eot`
+  - `/assets/vendor/remixicon/remixicon.svg`
+  - `/assets/vendor/remixicon/remixicon.ttf`
+  - `/assets/vendor/remixicon/remixicon.woff`
+  - `/assets/vendor/remixicon/remixicon.woff2`
+- Upstream: https://remixicon.com/
+- Repository: https://github.com/Remix-Design/RemixIcon
+- License: Remix Icon License 1.0
+
+2) intl-tel-input
+- Paths:
+  - `/assets/vendor/intl-tel-input/intlTelInput.min.js`
+  - `/assets/vendor/intl-tel-input/intlTelInput.css`
+  - `/assets/vendor/intl-tel-input/flags.png`
+  - `/assets/vendor/intl-tel-input/flags@2x.png`
+- Upstream: https://github.com/jackocnr/intl-tel-input
+- License: MIT
+
+3) Grid.js
+- Paths:
+  - `/assets/vendor/gridjs/gridjs.umd.js`
+  - `/assets/vendor/gridjs/mermaid.min.css`
+- Upstream: https://gridjs.io/
+- Repository: https://github.com/grid-js/gridjs
+- License: MIT
+
+4) Notyf
+- Paths:
+  - `/assets/vendor/notyf/notyf.min.js`
+  - `/assets/vendor/notyf/notyf.min.css`
+- Upstream: https://github.com/caroso1222/notyf
+- License: MIT
+
+5) Chart.js
+- Path:
+  - `/assets/vendor/chartjs/chart.umd.min.js`
+- Upstream: https://www.chartjs.org/
+- Repository: https://github.com/chartjs/Chart.js
+- License: MIT
+
+6) FilePond + Image Preview plugin
+- Paths:
+  - `/assets/vendor/filepond/filepond.min.js`
+  - `/assets/vendor/filepond/filepond.min.css`
+  - `/assets/vendor/filepond/filepond-plugin-image-preview.min.js`
+  - `/assets/vendor/filepond/filepond-plugin-image-preview.min.css`
+- Upstream: https://pqina.nl/filepond/
+- Repository: https://github.com/pqina/filepond
+- License: MIT
+
+7) Pickr
+- Paths:
+  - `/assets/vendor/pickr/pickr.min.js`
+  - `/assets/vendor/pickr/nano.min.css`
+- Upstream: https://simonwep.github.io/pickr/
+- Repository: https://github.com/Simonwep/pickr
+- License: MIT
+
+## Plugin-authored local stylesheet
+
+- Path: `/assets/vendor/inter/inter.css`
+- Purpose: local helper stylesheet (no remote calls).
+- License: GPL-2.0-or-later (Agenda Lite project file).

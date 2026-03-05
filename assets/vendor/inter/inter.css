@@ -1,0 +1,2 @@
+:root{--litecal-font-sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+body.lc-public-active,.lc-admin{font-family:var(--litecal-font-sans)}
